@@ -42,7 +42,8 @@ Healenium FE Setup :
 Healenium Reporter Setup : 
 
 1: Go to pom file and add the reporter plugin
-    <plugin>
+
+    `<plugin>
     <groupId>com.epam.healenium</groupId>
     <artifactId>hlm-report-mvn</artifactId>
     <version>1.1</version>
@@ -62,9 +63,12 @@ Healenium Reporter Setup :
     </goals>
     </execution>
     </executions>
-    </plugin>
+    </plugin>`
+
 2: Run the test by command mvn clean test 
+
 3: Report URL will be generated in the output for example : http://localhost:7878/healenium/report/c24e5374-e6e8-4574-9ac7-3b7e4b66c422
+
 
 Complete guideline on setup is
 https://github.com/healenium
